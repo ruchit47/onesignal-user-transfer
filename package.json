@@ -1,0 +1,16 @@
+{
+  "name": "onesignal-user-transfer",
+  "version": "1.0.0",
+  "description": "Transfer your OneSignal app subscrivers to another OneSignal app.",
+  "main": "OneSignalTransfer.js",
+  "keywords": [
+    "OneSignal"
+  ],
+  "author": "Ruchit Patel",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^1.11.0",
+    "request": "^2.81.0",
+    "simple-rate-limiter": "^0.2.3"
+  }
+}
