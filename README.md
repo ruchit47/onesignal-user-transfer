@@ -10,12 +10,13 @@ But when you need to combine apps to single app without loosing existing subscri
 
 1. Export all users .csv file from your old [OneSignal CSV Export API](https://documentation.onesignal.com/reference#csv-export ).
 
-2. Configure 'onesignal_app_id' and 'onesignal_app_token' with APP ID and REST API KEY of new app in which you want to import users
+2. Configure 'onesignal_app_id' and 'onesignal_app_token' with APP ID and REST API KEY of new app in which you want to import users.
 
-3. var onesignal_csv_file = "YourOldAppData.csv"
+3. Configure 'onesignal_csv_file' with relative path to "YourOldAppData.csv"
 
 #### Run Script
-
+	git clone https://github.com/ruchit47/onesignal-user-transfer.git
+	npm install
     node OneSignalTransfer.js
 
 
